@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #1B244A; /* Fixed */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center; /* Centers the content vertically */
+    text-align: center;
+    height: 100vh; /* Makes sure it takes the full height of the viewport */
+    gap: 100px; /* Reduces space between HOME and GUEST */
+    margin-top: 50px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+h3 {
+    color: #EEEEEE; /* Fixed */
+    font-size: 40px; /* Adjust size as needed */
+    font-weight: bold; /* Make it bold */
+    text-align: center; /* Center it */
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    color: #F94F6D; /* Fixed */
+}
+
+.score-box {
+    width: 155px; /* Adjust width */
+    height: 120px; /* Adjust height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001; /* Fixed */
+    color: white; /* Ensure text is visible */
+    font-size: 70px; /* Adjust font size */
+    font-weight: bold;
+    border-radius: 10px; /* Rounded corners */
+    border: 3px solid #1B244A; /* Border color */
+    text-align: center;
+    margin: 10px auto; /* Centers the box */
+    color: #F94F6D;;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row; /* Stack buttons vertically */
+    gap: 12px; /* Add space between buttons */
+    align-items: center; /* Center buttons horizontally */
+}
+.btn button {
+    background-color: #1B244A; /* Match background */
+    color: #9AABD8; /* Text color */
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #9AABD8; /* Visible border */
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center; /* Horizontally center text in button */
+    align-items: center; /* Vertically center text in button */
+    text-align: center; /* Ensure text is centered inside button */
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin-top: 20px;
+}
+
+.reset-container {
+    position: absolute;
+    bottom: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+#reset-btn {
+    background-color: #9AABD8;
+    color: #1B244A;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #1B244A;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset-btn:hover {
+    background-color: #7F99C1;
+}
+
+
